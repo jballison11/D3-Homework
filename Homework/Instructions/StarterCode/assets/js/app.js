@@ -72,7 +72,7 @@ d3.csv("data.csv")
       .attr("class", "tooltip")
       .offset([80, -60])
       .html(function(d) {
-        return (`${d.poverty}<br>Poverty: ${d.poverty}<br>Healthcare: ${d.healthcare}`);
+        return (`${d.abbr}<br>Poverty: ${d.poverty}<br>Healthcare: ${d.healthcare}`);
       });
 
     //Create tooltip in the chart
